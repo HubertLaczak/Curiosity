@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Curiosity</string>
-    <string name="TIP_1">Jedziemy do...</string>
-    <string name="TIP_2">Jedziemy do...</string>
-    <string name="TIP_3">Jedziemy do...</string>
+    <string name="TIP_1">Jedziemy do...1</string>
+    <string name="TIP_2">Jedziemy do...2</string>
+    <string name="TIP_3">Jedziemy do...3</string>
+    <string name="TIP_5">Jedziemy do...5</string>
 </resources>
