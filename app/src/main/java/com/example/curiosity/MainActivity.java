@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     Button button;
 
     private int i = 1;
-    int preSelectedIndex = -1;
     ListView listView;
 
     @Override
@@ -103,10 +102,10 @@ public class MainActivity extends AppCompatActivity {
         button.setEnabled(false);
         switch (i){
             case 1:
-            tv_News.setText(R.string.TIP_ONE);
+                tv_News.setText(R.string.TIP_1);
                 break;
             case 2:
-                tv_News.setText("Dwa");
+                tv_News.setText(R.string.TIP_2);
                 break;
             case 3:
                 tv_News.setVisibility(View.GONE);
@@ -117,8 +116,6 @@ public class MainActivity extends AppCompatActivity {
                 tv_News.setVisibility(View.VISIBLE);
                 tv_News.setText("Cztery");
                 break;
-
-
         }
         i++;
     }
